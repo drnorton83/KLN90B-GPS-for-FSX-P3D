@@ -5,8 +5,6 @@
 // ----------------------------------------------------------------------------------
 
 #include "PCH.h"
-#include <stdio.h>
-#include <math.h>
 #include <vector>
 #include <string>
 #include <Shlwapi.h>	// for PathFileExists()

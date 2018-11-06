@@ -5,6 +5,8 @@
 #include "fs_gauge.h"
 #include <stdio.h>
 #include <math.h>
+#include "Lib/Core/Exception.h"
+#include "Lib/FSX/SimConnectWrapper.h"
 
 // Revision Log
 // 150113 CEO 0.071B Added VERT_ADJ and HORZ_ADJ to adjust position of text window (solved bottom line chop)

@@ -746,7 +746,7 @@ BOOL K_load_dword_param(char *section,char *attribute,DWORD *value)
 	char kln_config[MAX_PATH];
 	char str_value[MAX_PATH];
 	sprintf(kln_config,"%s/KLN90B/%s",fsdir,KLN_CONFIG_NAME);
-	sprintf(str_value,"%lu",value);
+	sprintf(str_value,"%p",value);
 	GetPrivateProfileString(section,attribute,"NULL",str_value,sizeof(str_value),kln_config);
     if(!strcmp(str_value,"NULL")) return(FALSE);
 	if(value) *value = atol(str_value);

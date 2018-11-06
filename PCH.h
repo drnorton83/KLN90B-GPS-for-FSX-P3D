@@ -28,6 +28,7 @@
 #include <math.h>
 
 #pragma comment(lib,"version.lib")
+#pragma comment(lib, "Shlwapi.lib")
 //#pragma comment(lib,"wininet.lib")
 //#pragma comment(lib,"ws2_32.lib")
 

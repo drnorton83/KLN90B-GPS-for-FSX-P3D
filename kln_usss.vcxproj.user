@@ -5,7 +5,19 @@
     <LocalDebuggerWorkingDirectory>$(FSX_DIR)</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='USSS_KLN_RELEASE|x64'">
+    <LocalDebuggerCommand>$(FSX_DIR)\fsx.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(FSX_DIR)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>C:\FSXA\fsx.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>C:\FSXA</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand>D:\SIM\FSX\fsx.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory>D:\SIM\FSX</RemoteDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerCommand>C:\FSXA\fsx.exe</LocalDebuggerCommand>
     <LocalDebuggerWorkingDirectory>C:\FSXA</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
@@ -17,7 +29,17 @@
     <LocalDebuggerWorkingDirectory>$(FSX_DIR)</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommand>$(FSX_DIR)\fsx.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(FSX_DIR)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='USSS_KLN|Win32'">
+    <LocalDebuggerCommand>$(FSX_DIR)\fsx.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(FSX_DIR)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='USSS_KLN|x64'">
     <LocalDebuggerCommand>$(FSX_DIR)\fsx.exe</LocalDebuggerCommand>
     <LocalDebuggerWorkingDirectory>$(FSX_DIR)</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
